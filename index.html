@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti, Miriel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <!-- Sección de inicio -->
+        <div class="inicio" id="inicio">
+            <h1>Hola, mi amor</h1>
+            <p>Este 21 de septiembre estas flores amarillas son para usted.</p>
+            <button id="comenzarBtn">Comenzar</button>
+        </div>
+
+        <!-- Sección de contenido oculto al inicio -->
+        <div class="contenido" id="contenido" style="display: none;">
+            <h2>Para Miriel</h2>
+            <p id="mensajeBonito">Eres una mujer fuerte, valiente y llena de luz. Cada día me inspiras a ser mejor.</p>
+            <img src="https://img.freepik.com/vector-gratis/ilustracion-vector-flor-acuarela-estilo-colorido_341269-945.jpg?semt=ais_hybrid" alt="Flores Amarillas" id="flores">
+            
+            <!-- Botones para cambiar mensajes -->
+            <div class="botones">
+                <button id="btnFuerza">Fuerza</button>
+                <button id="btnValentia">Valentía</button>
+                <button id="btnLuz">Luz</button>
+            </div>
+
+            <!-- Audio -->
+            <audio controls id="audio">
+                <source src="audio/mensaje.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+        </div>
+    </div>
+
+    <!-- Carga del script -->
+    <script src="script.js"></script>
+</body>
+</html>
